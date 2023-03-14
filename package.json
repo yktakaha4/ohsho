@@ -1,15 +1,15 @@
 {
   "name": "ohsho",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:yktakaha4/ohsho.git",
   "author": "Yuuki Takahashi <20282867+yktakaha4@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && vite build --emptyOutDir && vite build --config=vite.config.content_scripts.js"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.223",
-    "typescript": "^4.9.5"
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4"
   }
 }
