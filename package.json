@@ -5,7 +5,7 @@
   "author": "Yuuki Takahashi <20282867+yktakaha4@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc && vite build --emptyOutDir && vite build --config=vite.config.content_scripts.js"
+    "build": "tsc && vite build --emptyOutDir"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.223",
